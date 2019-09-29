@@ -268,7 +268,7 @@ Books {data-icon=book}
 print_section(position_data, 'book_chapters')
 ```
 
-
+<br>
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
