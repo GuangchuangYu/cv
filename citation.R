@@ -30,7 +30,8 @@ p <- ggplot(citation, aes(cites, year)) +
           panel.grid.minor = element_blank(),
           panel.grid.major.x = element_line(linetype="dashed")) +
     theme_transparent() +
-    labs(caption = "data from Google Scholar")
+    labs(caption = "data from Google Scholar") +
+    scale_x_continuous(position="top")
 
 ggsave(p, file = "citation.png", width=3.5, height=9)
 
