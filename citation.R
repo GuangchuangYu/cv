@@ -10,6 +10,7 @@ id <- 'DO5oG40AAAAJ'
 
 profile <- tryCatch(get_profile(id), error = function(e) return(NULL))
 if (!is.null(profile)) {
+    profile$date <- Sys.Date()
     cat(toJSON(profile), file ="profile.json")
 }
 
