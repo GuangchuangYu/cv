@@ -25,6 +25,9 @@ p <- ggplot(citation, aes(cites, year)) +
     geom_barh(stat='identity', fill = "#96B56C") + 
     geom_text2(aes(label=cites, subset = cites > 500), hjust=1.1, size=5) + 
     theme_minimal(base_size=14) + xlab(NULL) + ylab(NULL) +
+    theme(panel.grid.major.y = element_blank(), 
+          panel.grid.minor = element_blank(),
+          panel.grid.major.x = element_line(linetype="dashed")) +
     theme_transparent() +
     labs(caption = "data from Google Scholar")
 
