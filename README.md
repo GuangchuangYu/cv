@@ -13,4 +13,8 @@ The main files are:
 
 
 
-The source code was derived from <https://github.com/nstrayer/cv>.
+The source code was derived from <https://github.com/nstrayer/cv>, with modifications:
+
++ add `order` column in `positions.csv` to adjust item order.
++ remove `time` if it is identical to previous item.
++ add citation stats.
