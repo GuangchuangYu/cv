@@ -74,7 +74,9 @@ build_position_from_df <- function(pos_df){
   
   missing_start <- pos_df$start == 'N/A'
   dates_same <- pos_df$end == pos_df$start
-  
+  if (pos_df$end == 9999) {
+    pos_df$end = "present"
+  }
   if(any(c(missing_start,dates_same))){
     timeline <- pos_df$end
   } else {
@@ -169,7 +171,7 @@ Aside
 ================================================================================
 
 
-![logo](gc.png){width=100%}
+![logo](ygc.jpg){width=100%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -185,29 +187,37 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> guangchuangyu@gmail.com
 - <i class="fa fa-twitter"></i> guangchuangyu
 - <i class="fa fa-github"></i> github.com/GuangchuangYu
-- <i class="fa fa-link"></i> [guangchuangyu.github.io](https://guangchuangyu.github.io/)
+- <i class="fa fa-link"></i> guangchuangyu.github.io
 - <i class="fa fa-weixin"></i> biobabble
 - <i class="fa fa-phone"></i> (86) 13826432521
 
 
 
-Skills {#skills}
+Selected R packages {#skills}
 --------------------------------------------------------------------------------
 
+NGS
 
-Highly experienced in
+- ChIPseeker
 
+Ontology
 
-- R 
-- ggplot2
+- clusterProfiler 
+- DOSE
+- enrichplot
+- GOSemSim
 
-Experience with
+Phylogeny
 
-- Linux
-- Bash
-- C++
-- JAVA
+- treeio
+- tidytree
+- ggtree
 
+Visualization
+
+- ggplotify
+- ggimage
+- seqcombo
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -225,34 +235,18 @@ Guangchuang Yu {#title}
 
 
 ```{r, results='asis'}
-selected_pkgs <- paste0(Biocpkg("clusterProfiler"), ", ", 
-      Biocpkg("ChIPseeker"), ", ",
-      Biocpkg("treeio"), " and ",
-      Biocpkg("ggtree"))
-
-intro_text <- paste0('Professor of Bioinformatics at [Southern Medical University](http://www.smu.edu.cn/). I have developed more than 20 R packages, including ',
-  selected_pkgs, ".")
-
+intro_text <- glue("Professor of Bioinformatics at [Southern Medical University](http://www.smu.edu.cn/). I have developed more than 20 R packages, including ",
+  {Biocpkg("clusterProfiler")}, ", ", 
+  {Biocpkg("ChIPseeker")}, ", ",
+  {Biocpkg("treeio")}, " and ",
+  {Biocpkg("ggtree")}, 
+  ", to help biologists to explore and understand their data.")
 
 cat(sanitize_links(intro_text))
 ```
 
 I am broadly interested in bioinformatics, metagenomics, molecular evolution, data integration and visualization.
 
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r, results='asis', echo = FALSE}
-print_section(position_data, 'education')
-```
-
-Certificate {data-icon=book}
---------------------------------------------------------------------------------
-
-```{r, results='asis', echo = FALSE}
-print_section(position_data, 'certificate')
-```
 
 
 
@@ -263,6 +257,22 @@ Research Experience {data-icon=laptop}
 print_section(position_data, 'research_positions')
 ```
 
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r, results='asis', echo = FALSE}
+print_section(position_data, 'education')
+```
+
+<br>
+
+Certificate {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r, results='asis', echo = FALSE}
+print_section(position_data, 'certificate')
+```
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -283,6 +293,7 @@ print_section(position_data, 'grant')
 ```
 
 
+
 Books {data-icon=book}
 --------------------------------------------------------------------------------
 
@@ -292,7 +303,7 @@ Books {data-icon=book}
 print_section(position_data, 'book_chapters')
 ```
 
-<br>
+
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
@@ -341,7 +352,6 @@ if(PDF_EXPORT){
 Links {data-icon=link}
 --------------------------------------------------------------------------------
 
-<br>
 
 
 ")
