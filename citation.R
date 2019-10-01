@@ -22,6 +22,7 @@ if (!is.null(citation)) {
 
 citation <- fromJSON("citation.json")
 citation$year <- factor(citation$year)
+
 p <- ggplot(citation, aes(cites, year)) + 
     geom_barh(stat='identity', fill = "#96B56C") + 
     geom_text2(aes(label=cites, subset = cites > 500), hjust=1.1, size=5) + 
@@ -34,10 +35,10 @@ p <- ggplot(citation, aes(cites, year)) +
           plot.caption=element_text(colour='grey30')) +
     theme_transparent() 
 
-ggsave(p, file = "citation.png", width=3.5, height=9)
+ggsave(p, file = "citation.png", width=3.5, height=9, bg = "transparent")
 
 
-library(magick)
-p <- image_read("citation.png")
-p <- image_transparent(p, "white")
-image_write(p, path="citation.png")
+## library(magick)
+## p <- image_read("citation.png")
+## p <- image_transparent(p, "white")
+## image_write(p, path="citation.png")
