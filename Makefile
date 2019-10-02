@@ -6,6 +6,10 @@ cv2:
 
 pdf:
 	Rscript -e 'pagedown::chrome_print("index.html", "ygc.pdf")'
-	
-citation:
+
+citation: 
 	Rscript -e 'source("citation.R")'
+
+proxy:
+	source ../ygc-utilities/proxy.sh
+
