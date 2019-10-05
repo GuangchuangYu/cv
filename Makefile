@@ -11,5 +11,5 @@ citation:
 	Rscript -e 'source("citation.R")'
 
 proxy:
-	source ../ygc-utilities/proxy.sh
+	sh ../ygc-utilities/proxy.sh
 
