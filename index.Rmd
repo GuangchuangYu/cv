@@ -209,14 +209,14 @@ Ontology
 
 Phylogeny
 
-- treeio
 - tidytree
+- treeio
 - ggtree
 
 Visualization
 
-- ggplotify
 - ggimage
+- ggplotify
 - seqcombo
 
 Disclaimer {#disclaimer}
