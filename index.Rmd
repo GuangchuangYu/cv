@@ -265,7 +265,6 @@ Education {data-icon=graduation-cap data-concise=true}
 print_section(position_data, 'education')
 ```
 
-<br>
 
 Certificate {data-icon=book}
 --------------------------------------------------------------------------------
