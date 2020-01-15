@@ -6,6 +6,9 @@ library(ggimage)
 library(ggtree)
 
 
+#Sys.setenv(http_proxy="http://127.0.0.1:43723")
+
+
 id <- 'DO5oG40AAAAJ'
 
 profile <- tryCatch(get_profile(id), error = function(e) return(NULL))
