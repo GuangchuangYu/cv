@@ -2,6 +2,7 @@ loc,title,institution,start,end,description_1,description_2,description_3,sectio
 The University of Hong Kong,"PhD., Bioinformaitcs","Hong Kong, CN",2013,2017,Thesis: Big-data computational methods for studying molecular evolution: from accurate genome assembly to phylogenetic analysis and data integration,NA,NA,education,1
 Anhui Medical University,"M.S., Biochemistry and Molecular Biology","Hefei, CN",2006,2009,Thesis: miRNA靶基因计算分析新方法及其应用研究,NA,NA,education,2
 South China Agricultural University,"B.S., Biotechnology","Guangzhou, CN",2001,2005,NA,NA,NA,education,3
+University of Cambridge,Antigenic cartography and antibody landscapes course,"Cambridge, UK",2019,2019,NA,NA,NA,education,NA
 延安干部培训学院,南方医科大学高层次人才“不忘初心 牢记使命”学习教育,"Yan'an, CN",2018,2018,NA,NA,NA,education,NA
 Institut Pasteur,Train the Trainers,"Paris, FR",2015,2015,NA,NA,NA,education,NA
 Centre for Enhancement of Teaching and Learning,Certificate of Teaching and Learning in Higher Education,The University of Hong Kong,2015,2015,NA,NA,NA,certificate,NA
@@ -52,9 +53,11 @@ College of Life Science and Technology,功能蛋白质研究,Jinan University,20
 "**主持**, CNY ¥100,000, 中央高校基本科研业务费专项资金",hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究 (21613414),NA,2013,2013,NA,NA,NA,grant,NA
 "**主持**, CNY ¥20,000, 中央高校基本科研业务费专项资金",Hela细胞周期动态蛋白质组学分析 (21611303),NA,2011,2011,NA,NA,NA,grant,NA
 "第八届南方医院博士论坛 - 研而有信之修“生”养“信”, Oct 2019",R语言在生物信息学数据可视化中的应用,Southern Medical University,2019,2019,NA,NA,NA,presentation,NA
+第一届生信人才发展论坛,R包开发十条建议,"Zhuhai, CN",2019,2019,NA,NA,NA,presentation,NA
 "Managing Zoonotic Infections in the era of One Health, Oct 2019",Data integration and visualization of phylogenetic trees,Guangzhou Medical University,2019,2019,NA,NA,NA,presentation,NA
 "第一届南方医科大学基础医学学术年会, Jan 2019",Two methods for mapping and visualizing associated data on phylogeny using ggtree,Southern Medical University,2019,2019,NA,NA,NA,presentation,NA
 "The 3^rd^ South Lake Innovation Forum for International Young Talents, May 2018",Data integration and visualization of phylogenetic trees,Huazhong Agricultural University,2018,2018,NA,NA,NA,presentation,NA
 "Phylogenetic tree visualization workshop/hackathon, May 2017",ggtree for tree visualization & annotation,The Field Museum of Natural History,2017,2017,NA,NA,NA,presentation,NA
 "The Second International Workshop on Environmental Microbiomes, Apr 2017",Computational Methods in Ecology and Evolution,Sun Yat-sen University,2017,2017,NA,NA,NA,presentation,NA
+潮博沙龙,R语言与生物信息学,"Guangzhou, CN",2016,2016,NA,NA,NA,presentation,NA
 "The 9^th^ China-R Conference, May 2016",ggtree for visualization and annotation of phylogenetic trees,Renmin University of China,2016,2016,NA,NA,NA,presentation,NA
