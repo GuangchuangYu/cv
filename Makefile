@@ -14,3 +14,5 @@ citation:
 	Rscript -e 'source("citation.R")'; \
 	source /data/gitee/ygc-utilities/unproxy.sh
 
+citation2:
+	Rscript -e 'source("citation.R")'
