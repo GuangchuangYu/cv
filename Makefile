@@ -1,6 +1,6 @@
 all: cv pdf
 
-cv: citation
+cv: citation2
 	Rscript -e 'rmarkdown::render("index.Rmd")'
 
 cv2:

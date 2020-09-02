@@ -19,6 +19,13 @@ if (!is.null(profile)) {
 
 citation <- tryCatch(get_citation_history(id), error = function(e) return(NULL))
 
+if (is.null(citation)) {
+    citation <- tinyscholar::tinyscholar(id)$citation
+    citation <- citation[-1, ] # remove 'total' row
+    names(citation) <- c("year", "cites")
+    citation$year <- as.numeric(citation$year)
+}
+
 if (!is.null(citation)) {
     cat(toJSON(citation), file = "citation.json")
 }
