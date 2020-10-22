@@ -166,7 +166,6 @@ if(PDF_EXPORT){
 }
 ```
 
-
 Aside
 ================================================================================
 
@@ -304,15 +303,16 @@ print_section(position_data, 'book_chapters')
 
 
 
-Publications {data-icon=book}
---------------------------------------------------------------------------------
 
 ::: aside
 
 ```{r}
 profile = jsonlite::fromJSON("profile.json")
+cites = jsonlite::fromJSON("citation.json")
+if (profile$total_cites < sum(cites$cites))
+  profile$total_cites <- sum(cites$cites)
 
-  glue(
+glue(
 
 "
 + Citation = {profile$total_cites}
@@ -325,7 +325,34 @@ profile = jsonlite::fromJSON("profile.json")
 ```
 
 ![](citation.png)
+
+
+![](figures/10th-anniversary-logo-2.png){width=100%}
+
+```{r}
+ggtree <- "ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data"
+url <- 'http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract'
+
+ggtree2 <- glue("[{ggtree}]({url})")
+journal <- "**_Methods in Ecology and Evolution_**"
+
+url2 <- "to be updated"
+
+glue(
+  " 
+  Our article {ggtree2} was selected to highlight to celebrate the 10th anniversary of the launch of {journal}.
+
+  url: {url2}
+  "
+) %>% print()
+```
+
+
 :::
+
+
+Publications {data-icon=book}
+--------------------------------------------------------------------------------
 
 
 ```{r}
