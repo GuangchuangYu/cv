@@ -190,33 +190,29 @@ Contact {#contact}
 - <i class="fa fa-weixin"></i> biobabble
 - <i class="fa fa-phone"></i> (86) 13826432521
 
+<br>
+
+```{r}
+profile = jsonlite::fromJSON("profile.json")
+cites = jsonlite::fromJSON("citation.json")
+if (profile$total_cites < sum(cites$cites))
+  profile$total_cites <- sum(cites$cites)
+
+glue(
+
+"
++ Citation = {profile$total_cites}
++ H-index = {profile$h_index}
++ I10-index = {profile$i10_index}
+
+"
+  ) %>% print()
+
+```
+
+![](citation.png)
 
 
-Selected R packages {#skills}
---------------------------------------------------------------------------------
-
-NGS
-
-- ChIPseeker
-
-Ontology
-
-- clusterProfiler 
-- DOSE
-- enrichplot
-- GOSemSim
-
-Phylogeny
-
-- tidytree
-- treeio
-- ggtree
-
-Visualization
-
-- ggimage
-- ggplotify
-- seqcombo
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -273,14 +269,13 @@ print_section(position_data, 'certificate')
 ```
 
 
-Teaching Experience {data-icon=chalkboard-teacher}
+Scholarships & Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-print_section(position_data, 'teaching_positions')
+print_section(position_data, 'award')
 ```
-
 
 
 Grants  {data-icon=chart-line}
@@ -289,7 +284,6 @@ Grants  {data-icon=chart-line}
 ```{r}
 print_section(position_data, 'grant')
 ```
-
 
 
 Books {data-icon=book}
@@ -302,29 +296,22 @@ print_section(position_data, 'book_chapters')
 ```
 
 
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+
+
+```{r}
+print_section(position_data, 'teaching_positions')
+```
+
+
+
+Publications {data-icon=book}
+--------------------------------------------------------------------------------
 
 
 ::: aside
-
-```{r}
-profile = jsonlite::fromJSON("profile.json")
-cites = jsonlite::fromJSON("citation.json")
-if (profile$total_cites < sum(cites$cites))
-  profile$total_cites <- sum(cites$cites)
-
-glue(
-
-"
-+ Citation = {profile$total_cites}
-+ H-index = {profile$h_index}
-+ I10-index = {profile$i10_index}
-
-"
-  ) %>% print()
-
-```
-
-![](citation.png)
 
 
 ![](figures/10th-anniversary-logo-2.png){width=100%}
@@ -350,11 +337,6 @@ glue(
 
 :::
 
-
-Publications {data-icon=book}
---------------------------------------------------------------------------------
-
-
 ```{r}
 print_section(position_data, 'academic_articles')
 ```
@@ -368,6 +350,16 @@ Conference proceedings {data-icon=group}
 
 ```{r}
 print_section(position_data, 'presentation')
+```
+
+
+Professional affliations {data-icon=home}
+--------------------------------------------------------------------------------
+
+
+
+```{r}
+print_section(position_data, 'affliation')
 ```
 
 

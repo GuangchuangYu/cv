@@ -1,5 +1,6 @@
 library(scholar)
 library(jsonlite)
+library(dplyr)
 library(ggplot2)
 library(ggstance)
 library(ggimage)
@@ -38,6 +39,7 @@ if (!is.null(cites)) {
 }
 
 cites <- fromJSON("citation.json")
+cites <- slice(cites, tail(row_number(), 6))
 cites$year <- factor(cites$year)
 
 p <- ggplot(cites, aes(cites, year)) + 
@@ -52,7 +54,7 @@ p <- ggplot(cites, aes(cites, year)) +
           plot.caption=element_text(colour='grey30')) +
     theme_transparent() 
 
-ggsave(p, file = "citation.png", width=3.5, height=6, bg = "transparent")
+ggsave(p, file = "citation.png", width=3.5, height=4, bg = "transparent")
 
 
 ## library(magick)
