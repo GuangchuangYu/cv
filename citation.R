@@ -9,6 +9,7 @@ library(ggtree)
 
 #Sys.setenv(http_proxy="http://127.0.0.1:43723")
 
+set_scholar_mirror()
 
 id <- 'DO5oG40AAAAJ'
 
