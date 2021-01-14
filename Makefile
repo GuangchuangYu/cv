@@ -16,3 +16,8 @@ citation:
 
 citation2:
 	Rscript -e 'source("citation.R")'
+
+tolabsite:
+	cp index.html ../yulab-smu.github.io/static/cv/ygc.html
+
+
