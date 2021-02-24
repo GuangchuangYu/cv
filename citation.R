@@ -45,7 +45,7 @@ cites$year <- factor(cites$year)
 
 p <- ggplot(cites, aes(cites, year)) + 
     geom_barh(stat='identity', fill = "#96B56C") + 
-    geom_text2(aes(label=cites, subset = cites > 500), hjust=1.1, size=5) + 
+    geom_text2(aes(label=cites, subset = cites > 1000), hjust=1.1, size=5) + 
     labs(caption = "data from Google Scholar") +
     scale_x_continuous(position="top") +
     theme_minimal(base_size=14) + xlab(NULL) + ylab(NULL) +
