@@ -186,8 +186,8 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> guangchuangyu@gmail.com
 - <i class="fa fa-twitter"></i> guangchuangyu
 - <i class="fa fa-github"></i> github.com/GuangchuangYu
-- <i class="fa fa-link"></i> guangchuangyu.github.io
-- <i class="fa fa-weixin"></i> biobabble
+- <i class="fa fa-link"></i> https://yulab-smu.top/
+- <i class="fa fa-weixin"></i> YuLabSMU (公众号)
 - <i class="fa fa-phone"></i> (86) 13826432521
 
 <br>
