@@ -261,8 +261,14 @@ print_section(position_data, 'education')
 ```
 
 
+
 Certificate {data-icon=book}
 --------------------------------------------------------------------------------
+
+::: aside
+![](figures/2020-highly-cited-researcher.png){width=100%}
+:::
+
 
 ```{r, results='asis', echo = FALSE}
 print_section(position_data, 'certificate')
@@ -276,6 +282,10 @@ Scholarships & Awards {data-icon=trophy}
 ```{r}
 print_section(position_data, 'award')
 ```
+
+
+
+
 
 
 Grants  {data-icon=chart-line}
@@ -305,12 +315,6 @@ Teaching Experience {data-icon=chalkboard-teacher}
 print_section(position_data, 'teaching_positions')
 ```
 
-
-
-Publications {data-icon=book}
---------------------------------------------------------------------------------
-
-
 ::: aside
 
 
@@ -336,6 +340,10 @@ glue(
 
 
 :::
+
+Publications {data-icon=book}
+--------------------------------------------------------------------------------
+
 
 ```{r}
 print_section(position_data, 'academic_articles')
