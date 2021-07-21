@@ -12,10 +12,15 @@ School of Basic Medical Sciences,Professor,Southern Medical University,2018,9999
 State Key Laboratory of Infectious Diseases,Post-doctoral Fellow,The University of Hong Kong,2017,2018,NA,NA,NA,research_positions,NA
 Key Laboratory of Functional Protein Research of Guangdong Higher Education Institutes,Bioinformatician,Jinan University,2009,2013,NA,NA,NA,research_positions,NA
 Department of Biochemistry and Molecular Biology,BMB209: Workshops in Applied Bioinformatics,University of Southern Denmark,2019,2019,NA,NA,"PhD level class, invited lecture",teaching_positions,NA
+School of Basic Medical Sciences,基础医学研究与医学发展,Southern Medical University,2021,2021,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,生物信息学科研训练,Southern Medical University,2019,2021,NA,NA,Undergraduate level class,teaching_positions,NA
-School of Basic Medical Sciences,基因组学,Southern Medical University,2019,2020,NA,NA,Undergraduate level class,teaching_positions,NA
-School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,2020,NA,NA,Undergraduate level class,teaching_positions,NA
+School of Basic Medical Sciences,基因组学,Southern Medical University,2019,2021,NA,NA,Undergraduate level class,teaching_positions,NA
+School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,2021,NA,NA,Undergraduate level class,teaching_positions,NA
 College of Life Science and Technology,功能蛋白质研究,Jinan University,2011,2012,NA,NA,Graduate level class,teaching_positions,NA
+"__*Molecular Biology and Evolution*__. 2021, accepted.",[ggtreeExtra: Compact visualization of richly annotated phylogenetic data](https://doi.org/10.1093/molbev/msab166),N/A,2021,2021,"S Xu, Z Dai, P Guo, X Fu, S Liu, L Zhou, W Tang, T Feng, M Chen, L Zhan, T Wu, E Hu, Y Jiang^\*^, X Bo^\*^, **G Yu**^\*^",NA,NA,academic_articles,NA
+"__*The Innovation*__. 2021, accepted",[clusterProfiler 4.0: A universal enrichment tool for interpreting omics data](https://doi.org/10.1016/j.xinn.2021.100141),N/A,2021,2021,"T Wu^#^, E Hu^#^, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo^\*^, **G Yu**^\*^",NA,NA,academic_articles,NA
+"__*Frontiers in Immunology*__. 2021, 12:687975.",[IOBR: Multi-Omics Immuno-Oncology Biological Research to Decode Tumor Microenvironment and Signatures](https://doi.org/10.3389/fimmu.2021.687975),N/A,2021,2021,"D Zeng^#^, Z Ye^#^, R Shen, G Yu, J Wu, Y Xiong, R Zhou, W Qiu, N Huang, L Sun, X Li, J Bin, Y Liao, M Shi, W Liao^\*^",NA,NA,academic_articles,NA
+"__*PeerJ*__. 2021, 9:e11421.",[nCov2019: an R package for studying the COVID-19 coronavirus pandemic](https://doi.org/10.7717/peerj.11421),N/A,2021,2021,"T Wu, E Hu, X Ge**^\*^, **G Yu**^\*^",NA,NA,academic_articles,NA
 "__*F1000Research*__. 2021, 9:1246.",[TreeSummarizedExperiment: a S4 class for data with hierarchical structure](https://doi.org/10.12688/f1000research.26669.2),N/A,2021,2021,"R Huang, C Soneson, FGM Ernst, KC Rue-Albrecht, __G Yu__, SC Hicks, MD Robinson<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Genetics*__. 2021, 12: 625236.",[Identification of prognostic Stromal-Immune Score-Based Genes in Hepatocellular Carcinoma microenvironment](https://www.frontiersin.org/articles/10.3389/fgene.2021.625236),N/A,2021,2021,"S Liu, __G Yu__<sup>\*</sup>, L Liu<sup>\*</sup>, X Zou, L Zhou, E Hu, Y Song",NA,NA,academic_articles,NA
 "_**Aging (Albany NY)**_. 2020, 12(9):8583-8604.",[Gut microbiota and metabolite alterations associated with reduced bone mineral density or bone metabolic indexes in postmenopausal osteoporosis](https://doi.org/10.18632/aging.103168),N/A,2020,2020,"J He^#^, S Xu^#^, B Zhang, C Xiao, Z Chen, F Si, J Fu, X Lin, G Zheng^\*^, **G Yu**^\*^, J Chen^\*^",NA,NA,academic_articles,NA
@@ -58,6 +63,7 @@ College of Life Science and Technology,功能蛋白质研究,Jinan University,20
 "**参与**, CNY ¥990,000, 中华人民共和国科学技术部，国家重点研发计划",病毒性新发传染病的研究与防治 (2017YFE0190800),,2018,2020,NA,NA,NA,grant,NA
 "**主持**, CNY ¥100,000, 中央高校基本科研业务费专项资金",hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究 (21613414),NA,2013,2013,NA,NA,NA,grant,NA
 "**主持**, CNY ¥20,000, 中央高校基本科研业务费专项资金",Hela细胞周期动态蛋白质组学分析 (21611303),NA,2011,2011,NA,NA,NA,grant,NA
+The 7^th^ National Conference on Computational Biology and Bioinformatics,clusterProfiler 4.0: A universal enrichment tool for interpreting omics data,,2021,2021,NA,NA,NA,presentation,NA
 "BioC Asia, Oct 2020",Data integration and visualization of phylogenetic trees,Virtual Conference,2020,2020,NA,NA,NA,presentation,NA
 "第八届南方医院博士论坛 - 研而有信之修“生”养“信”, Oct 2019",R语言在生物信息学数据可视化中的应用,Southern Medical University,2019,2019,NA,NA,NA,presentation,NA
 "Managing Zoonotic Infections in the era of One Health, Oct 2019",Data integration and visualization of phylogenetic trees,Guangzhou Medical University,2019,2019,NA,NA,NA,presentation,NA
@@ -67,8 +73,9 @@ College of Life Science and Technology,功能蛋白质研究,Jinan University,20
 "The Second International Workshop on Environmental Microbiomes, Apr 2017",Computational Methods in Ecology and Evolution,Sun Yat-sen University,2017,2017,NA,NA,NA,presentation,NA
 潮博沙龙,R语言与生物信息学,"Guangzhou, CN",2016,2016,NA,NA,NA,presentation,NA
 "The 9^th^ China-R Conference, May 2016",ggtree for visualization and annotation of phylogenetic trees,Renmin University of China,2016,2016,NA,NA,NA,presentation,NA
-常务委员,广东省精准医学应用学会微生态医学分会,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
-青年委员会副主任委员,广东省医学会医学遗传学分会,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
+计算生物学与生物信息学专业委员会委员,中国生物工程学会,NA,2021,9999,NA,NA,NA,affliation,NA
+微生态医学分会常务委员,广东省精准医学应用学会,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
+遗传学分会青年委员会副主任委员,广东省医学会医学,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
 会员,中国计算机学会,NA,2019,9999,NA,NA,NA,affliation,NA
 会员,香港大学校友会,NA,2017,9999,NA,NA,NA,affliation,NA
 Member,International Society for Influenza and other Respiratory Virus Disease,NA,2016,2016,NA,NA,NA,affliation,NA
