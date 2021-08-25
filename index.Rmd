@@ -309,11 +309,14 @@ print_section(position_data, 'book_chapters')
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-
-
 ```{r}
 print_section(position_data, 'teaching_positions')
 ```
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 
 ::: aside
 
