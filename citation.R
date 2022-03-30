@@ -2,7 +2,6 @@ library(scholar)
 library(jsonlite)
 library(dplyr)
 library(ggplot2)
-library(ggstance)
 library(ggimage)
 library(ggtree)
 
@@ -43,9 +42,12 @@ cites <- fromJSON("citation.json")
 cites <- slice(cites, tail(row_number(), 6))
 cites$year <- factor(cites$year)
 
+N <- 4000
+
 p <- ggplot(cites, aes(cites, year)) + 
-    geom_barh(stat='identity', fill = "#96B56C") + 
-    geom_text2(aes(label=cites, subset = cites > 1000), hjust=1.1, size=5) + 
+    geom_bar(stat='identity', fill = "#96B56C", orientation='y') + 
+    #geom_text2(aes(label=cites, subset = cites > 1000), hjust=1.1, size=5) +
+    geom_text(aes(label=cites, hjust = sign(cites > N) + .1 * sign(cites - N)),size=5) + 
     labs(caption = "data from Google Scholar") +
     scale_x_continuous(position="top") +
     theme_minimal(base_size=14) + xlab(NULL) + ylab(NULL) +
