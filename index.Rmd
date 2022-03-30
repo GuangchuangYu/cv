@@ -314,12 +314,27 @@ print_section(position_data, 'teaching_positions')
 ```
 
 <div style="page-break-after: always; visibility: hidden"> 
+<!--  
 \pagebreak 
+-->
 </div>
 
 
 ::: aside
 
+
+![](figures/2021年中国科技论文统计报告发布会-高被引论文-截屏.png){width=100%}
+
+
+```{r}
+clusterProfiler <- "clusterProfiler (Yu et al. 2012)"
+url <- "https://doi.org/10.1089/omi.2011.0118"
+clusterProfiler2012 <- glue("[{clusterProfiler}]({url})")
+
+glue(
+  "{clusterProfiler2012} 被中国科学技术信息研究所列为“2011-2021我国高被引论文中被引次数最高的10篇国际论文”（2021年中国科技论文统计报告）" 
+) %>% print()
+```
 
 
 ![](figures/cell+press-screenshot-2021-08-24.jpg){width=100%}
@@ -354,6 +369,8 @@ glue(
   "
 ) %>% print()
 ```
+
+
 
 :::
 
