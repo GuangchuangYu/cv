@@ -68,10 +68,78 @@ sanitize_links <- function(text){
 }
 
 
+cp2012 <- function() {
+  cat("\n\n::: aside\n\n")
+  cat("![](figures/2021年中国科技论文统计报告发布会-高被引论文-截屏.png){width=100%}\n\n")
+  clusterProfiler <- "clusterProfiler (Yu et al. 2012)"
+  url <- "https://doi.org/10.1089/omi.2011.0118"
+  clusterProfiler2012 <- glue("[{clusterProfiler}]({url})")
+
+  glue(
+    "{clusterProfiler2012} 被中国科学技术信息研究所列为“2011-2021我国高被引论文中被引次数最高的10篇国际论文”（2021年中国科技论文统计报告）" 
+  ) %>% print()
+
+  cat("\n\n:::\n\n")
+}
+
+
+cp2021 <- function() {
+  cat("\n\n::: aside\n\n")
+  cat("![](figures/cell+press-screenshot-2021-08-24.jpg){width=100%}\n\n")
+
+  clusterProfiler4 <- "clusterProfiler (Wu et al. 2021)"
+  url <- "https://doi.org/10.1016/j.xinn.2021.100141"
+  clusterProfiler2021 <- glue("[{clusterProfiler4}]({url})")
+
+  glue(
+    "{clusterProfiler2021}, the featured article in 2021-08-24's website banner of Cell Press" 
+  ) %>% print()
+
+  cat("\n\n:::\n\n")
+}
+
+
+
+ggtree2017 <- function() {
+  cat("\n\n::: aside\n\n")
+  cat("![](figures/10th-anniversary-logo-2.png){width=100%}\n\n")
+
+  # ggtree <- "ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data"
+  ggtree <- "ggtree (Yu et al. 2017)"
+  url <- 'http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract'
+
+  ggtree2 <- glue("[{ggtree}]({url})")
+  journal <- "**_Methods in Ecology and Evolution_**"
+
+  url2 <- "https://methodsblog.com/2020/11/19/ggtree-tree-visualization/"
+  journal2 <- glue("[{journal}]({url2})")
+
+  glue(
+    " 
+    The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
+    "
+  ) %>% print()
+
+  cat("\n\n:::\n\n")
+}
+
+
+
 # Takes a single row of dataframe corresponding to a position
 # turns it into markdown, and prints the result to console.
 build_position_from_df <- function(pos_df){
   
+
+  if (grepl("clusterProfiler", pos_df$title) && grepl("OMICS", pos_df$loc)) {
+    cp2012()
+  }
+
+
+  if (grepl("clusterProfiler", pos_df$title) && grepl("Innovation", pos_df$loc)) {
+    cp2021()
+  }
+
+
   missing_start <- pos_df$start == 'N/A'
   dates_same <- pos_df$end == pos_df$start
   if (pos_df$end == 9999) {
@@ -107,6 +175,15 @@ build_position_from_df <- function(pos_df){
 
 "
   ) %>% print()
+
+
+  if (grepl("ggtree", pos_df$title) && grepl("Ecology and Evolution", pos_df$loc)) {
+    ggtree2017()
+  }
+
+
+
+
 }
 
 # Takes nested position data and a given section id 
@@ -322,59 +399,7 @@ print_section(position_data, 'teaching_positions')
 </div>
 
 
-::: aside
 
-
-![](figures/2021年中国科技论文统计报告发布会-高被引论文-截屏.png){width=100%}
-
-
-```{r}
-clusterProfiler <- "clusterProfiler (Yu et al. 2012)"
-url <- "https://doi.org/10.1089/omi.2011.0118"
-clusterProfiler2012 <- glue("[{clusterProfiler}]({url})")
-
-glue(
-  "{clusterProfiler2012} 被中国科学技术信息研究所列为“2011-2021我国高被引论文中被引次数最高的10篇国际论文”（2021年中国科技论文统计报告）" 
-) %>% print()
-```
-
-
-![](figures/cell+press-screenshot-2021-08-24.jpg){width=100%}
-
-```{r}
-clusterProfiler4 <- "clusterProfiler (Wu et al. 2021)"
-url <- "https://doi.org/10.1016/j.xinn.2021.100141"
-clusterProfiler2021 <- glue("[{clusterProfiler4}]({url})")
-
-glue(
-  "{clusterProfiler2021}, the featured article in 2021-08-24's website banner of Cell Press" 
-) %>% print()
-```
-
-
-![](figures/10th-anniversary-logo-2.png){width=100%}
-
-```{r}
-# ggtree <- "ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data"
-ggtree <- "ggtree (Yu et al. 2017)"
-url <- 'http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract'
-
-ggtree2 <- glue("[{ggtree}]({url})")
-journal <- "**_Methods in Ecology and Evolution_**"
-
-url2 <- "https://methodsblog.com/2020/11/19/ggtree-tree-visualization/"
-journal2 <- glue("[{journal}]({url2})")
-
-glue(
-  " 
-  The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
-  "
-) %>% print()
-```
-
-
-
-:::
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
