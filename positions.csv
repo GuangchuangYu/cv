@@ -12,14 +12,17 @@ School of Basic Medical Sciences,Professor,Southern Medical University,2018,9999
 State Key Laboratory of Infectious Diseases,Post-doctoral Fellow,The University of Hong Kong,2017,2018,NA,NA,NA,research_positions,NA
 Key Laboratory of Functional Protein Research of Guangdong Higher Education Institutes,Bioinformatician,Jinan University,2009,2013,NA,NA,NA,research_positions,NA
 Department of Biochemistry and Molecular Biology,BMB209: Workshops in Applied Bioinformatics,University of Southern Denmark,2019,2019,NA,NA,"PhD level class, invited lecture",teaching_positions,NA
-School of Basic Medical Sciences,生物信息学,Southern Medical University,2022,2022,NA,NA,Undergraduate level class（基础医学院士创新班）,teaching_positions,NA
-School of Basic Medical Sciences,基础医学研究与医学发展,Southern Medical University,2021,2021,NA,NA,Undergraduate level class,teaching_positions,NA
+School of Public Health,毒理学原理与方法,Southern Medical University,2022,2022,NA,NA,Graduate level class,teaching_positions,NA
+School of Basic Medical Sciences,生物信息学,Southern Medical University,2022,9999,NA,NA,Undergraduate level class（基础医学院士创新班）,teaching_positions,NA
+School of Basic Medical Sciences,基础医学研究与医学发展,Southern Medical University,2021,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,生物信息学科研训练,Southern Medical University,2019,2021,NA,NA,Undergraduate level class,teaching_positions,NA
-School of Basic Medical Sciences,基因组学,Southern Medical University,2019,2022,NA,NA,Undergraduate level class,teaching_positions,NA
+School of Basic Medical Sciences,基因组学,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,2021,NA,NA,Undergraduate level class,teaching_positions,NA
 College of Life Science and Technology,功能蛋白质研究,Jinan University,2011,2012,NA,NA,Graduate level class,teaching_positions,NA
-__*Bioinformatics*__. 2022.,[CBNplot: Bayesian network plots for enrichment analysis](https://doi.org/10.1093/bioinformatics/btac175),N/A,2022,2022,"N Sato, Y Tamada, __G Yu__, Y Okuno<sup>\*</sup>",NA,NA,academic_articles,NA
-__*Frontiers in Genetics*__. 2022,[The frontier status and trends in biomedical data visualization](https://www.frontiersin.org/articles/10.3389/fgene.2022.890775/full),N/A,2022,2022,"T Wu, CL Xiao, TT Lam, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
+__*Briefings in Bioinformatics*__. 2022.,[ggmsa: a visual exploration tool for multiple sequence alignment and associated data](https://doi.org/10.1093/bib/bbac222),N/A,2022,2022,"L Zhou<sup>#</sup>, T Feng<sup>#</sup>, S Xu, F Gao, TT Lam, Q Wang, T Wu, H Huang, L Zhan, L Li, Y Guan, Z Dai<sup>\*</sup>, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
+"__*Bioinformatics*__. 2022, 38(10):2959-2960.",[CBNplot: Bayesian network plots for enrichment analysis](https://doi.org/10.1093/bioinformatics/btac175),N/A,2022,2022,"N Sato, Y Tamada, __G Yu__, Y Okuno<sup>\*</sup>",NA,NA,academic_articles,NA
+"__*Frontiers in Genetics*__. 2022, 13:890775.",[Editorial: Biomedical Data Visualization: Methods and Applications](https://www.frontiersin.org/articles/10.3389/fgene.2022.890775/full),N/A,2022,2022,"T Wu, CL Xiao, TT Lam, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
+"__*Frontiers in Microbiology*__. 2022, 13:723791.",[Altered gut microbiota as an auxiliary diagnostic indicator for patients with fracture-related infection](https://www.frontiersin.org/articles/10.3389/fmicb.2022.723791/full),N/A,2022,2022,"X Zhao<sup>#</sup>, W Tang<sup>#</sup>, H Wan<sup>#</sup>, Z Lan H Qin, Q Lin, Y Hu, __G Yu__<sup>\*</sup>, N Jiang<sup>\*</sup>, B Yu<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Genetics*__. 2021, 12:774846.",[Use ggbreak to effectively utilize plotting space to deal with large datasets and outliers](https://www.frontiersin.org/articles/10.3389/fgene.2021.774846),N/A,2021,2021,"S Xu<sup>#</sup>, M Chen<sup>#</sup>, T Feng, L Zhan, L Zhou, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Genetics*__. 2021, 12:706907.","[ggVennDiagram: An intuitive, easy-to-use, and highly customizable R package to generate Venn diagram](https://doi.org/10.3389/fgene.2021.706907)",N/A,2021,2021,"CH Gao, __G Yu__, P Cai^\*^",NA,NA,academic_articles,NA
 "__*Molecular Biology and Evolution*__. 2021, 38(9):4039-4042.",[ggtreeExtra: Compact visualization of richly annotated phylogenetic data](https://doi.org/10.1093/molbev/msab166),N/A,2021,2021,"S Xu, Z Dai, P Guo, X Fu, S Liu, L Zhou, W Tang, T Feng, M Chen, L Zhan, T Wu, E Hu, Y Jiang^\*^, X Bo^\*^, **G Yu**^\*^",NA,NA,academic_articles,NA
@@ -63,7 +66,6 @@ __*Frontiers in Genetics*__. 2022,[The frontier status and trends in biomedical 
 "__*中国生物化学与分子生物学报*__. 2007, 23(11):881-887",依赖于5'端非编码区高级结构的真核生物mRNA翻译调控,NA,2007,2007,__余光创__，秦宜德，伯晓晨，王升启^\*^,NA,NA,academic_articles,NA
 ISBN: 9781032233574,"[Data Integration, Manipulation and Visualization of Phylogenetic Trees](https://www.routledge.com/Data-Integration-Manipulation-and-Visualization-of-Phylogenetic-Trees/Yu/p/book/9781032233574)",NA,2022,2022,__G Yu__,NA,Chapman and Hall/CRC,book_chapters,NA
 "__*Methods in Molecular Biology*__, 2117:207-215.",[Gene Ontology Semantic Similarity Analysis Using GOSemSim](https://doi.org/10.1007/978-1-0716-0301-7_11),,2020,2020,__G Yu__,In: Kidder B. (eds) **Stem Cell Transcriptional Networks**,"Humana, New York, NY",book_chapters,NA
-《__*功能蛋白质研究*__》. 385-425.,生物信息学II,NA,2012,2012,__余光创__,何庆瑜（主编），**科学出版社**,“十二五”国家重点图书出版规划项目,book_chapters,NA
 "**主持**, CNY ¥600,000, 国家级项目",大样本多组学数据联合分析系统研究与构建,,2020,2022,NA,NA,NA,grant,NA
 "**主持**, CNY ¥1,500,000",南方医科大学第三层次人才引进科研项目 (G618289088),NA,2018,2020,NA,NA,NA,grant,NA
 "**参与**, CNY ¥990,000, 中华人民共和国科学技术部，国家重点研发计划",病毒性新发传染病的研究与防治 (2017YFE0190800),,2018,2020,NA,NA,NA,grant,NA
@@ -83,14 +85,15 @@ Youth Editor,The Innovation,NA,2022,9999,NA,NA,NA,affliation,NA
 委员,南方医科大学基础医学院第二届学术分委员会,NA,2022,9999,NA,NA,NA,affliation,NA
 计算生物学与生物信息学专业委员会委员,中国生物工程学会,NA,2021,9999,NA,NA,NA,affliation,NA
 微生态医学分会常务委员,广东省精准医学应用学会,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
-遗传学分会青年委员会副主任委员,广东省医学会医学,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
+医学遗传学分会青年委员会副主任委员,广东省医学会,"Guangdong, CN",2020,9999,NA,NA,NA,affliation,NA
 会员,中国计算机学会,NA,2019,9999,NA,NA,NA,affliation,NA
 会员,香港大学校友会,NA,2017,9999,NA,NA,NA,affliation,NA
 Member,International Society for Influenza and other Respiratory Virus Disease,NA,2016,2016,NA,NA,NA,affliation,NA
 Steering Committee,International Network for Data Analysis,Institut Pasteur,2015,2015,NA,NA,NA,affliation,NA
 专家,广东潮博智库,"Guangdong, CN",2014,9999,NA,NA,NA,affliation,NA
-The University of Hong Kong,Postgraduate studentships,NA,2013,2017,NA,NA,NA,award,NA
 Journal of Integrated OMICS,Best paper of the year 2010,NA,2012,2012,NA,NA,NA,award,NA
+The University of Hong Kong,Postgraduate studentships,NA,2013,2017,NA,NA,NA,award,NA
 美国斯坦福大学,2020全球前2%顶尖科学家,NA,2021,2021,NA,NA,NA,award,NA
 Elsevier,2020年中国高被引学者,NA,2021,2021,NA,NA,NA,award,NA
 南方医科大学,2020学年教学优秀一等奖,NA,2022,2022,NA,NA,NA,award,NA
+Elsevier,2021年中国高被引学者,NA,2022,2022,NA,NA,NA,award,NA

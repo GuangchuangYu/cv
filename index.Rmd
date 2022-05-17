@@ -266,6 +266,8 @@ Certificate {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
+![](figures/2021-highly-cited-researcher.jpg){width=100%}
+
 ![](figures/2020-highly-cited-researcher.png){width=100%}
 :::
 
