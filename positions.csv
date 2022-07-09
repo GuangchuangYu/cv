@@ -19,7 +19,8 @@ School of Basic Medical Sciences,生物信息学科研训练,Southern Medical Un
 School of Basic Medical Sciences,基因组学,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 College of Life Science and Technology,功能蛋白质研究,Jinan University,2011,2012,NA,NA,Graduate level class,teaching_positions,NA
-__*Briefings in Bioinformatics*__. 2022.,[ggmsa: a visual exploration tool for multiple sequence alignment and associated data](https://doi.org/10.1093/bib/bbac222),N/A,2022,2022,"L Zhou<sup>#</sup>, T Feng<sup>#</sup>, S Xu, F Gao, TT Lam, Q Wang, T Wu, H Huang, L Zhan, L Li, Y Guan, Z Dai<sup>\*</sup>, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
+"__*Frontiers in Oncology*__. 2022, 12:912694. ",[Stemness Analysis Uncovers That The Peroxisome Proliferator-Activated Receptor Signaling Pathway Can Mediate Fatty Acid Homeostasis In Sorafenib-Resistant Hepatocellular Carcinoma Cells](https://doi.org/10.3389/fonc.2022.912694),N/A,2022,2022,"T Feng<sup>#</sup>, T Wu<sup>#</sup>, Y Zhang<sup>#</sup>, L Zhou<sup>#</sup>, S Liu, L Li, M Li, E Hu, Q Wang, X Fu, L Zhan, Z Xie, W Xie, X Huang<sup>\*</sup>, X Shang<sup>\*</sup>,  __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
+__*Briefings in Bioinformatics*__. 2022.,[ggmsa: a visual exploration tool for multiple sequence alignment and associated data](https://doi.org/10.1093/bib/bbac222),N/A,2022,2022,"L Zhou<sup>#</sup>, T Feng<sup>#</sup>, S Xu, F Gao, TT Lam, Q Wang, T Wu, H Huang, L Zhan, L Li, Y Guan, Z Dai<sup>\*</sup>, __G Yu__<sup>\*</sup>",,,,
 "__*Bioinformatics*__. 2022, 38(10):2959-2960.",[CBNplot: Bayesian network plots for enrichment analysis](https://doi.org/10.1093/bioinformatics/btac175),N/A,2022,2022,"N Sato, Y Tamada, __G Yu__, Y Okuno<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Genetics*__. 2022, 13:890775.",[Editorial: Biomedical Data Visualization: Methods and Applications](https://www.frontiersin.org/articles/10.3389/fgene.2022.890775/full),N/A,2022,2022,"T Wu, CL Xiao, TT Lam, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Microbiology*__. 2022, 13:723791.",[Altered gut microbiota as an auxiliary diagnostic indicator for patients with fracture-related infection](https://www.frontiersin.org/articles/10.3389/fmicb.2022.723791/full),N/A,2022,2022,"X Zhao<sup>#</sup>, W Tang<sup>#</sup>, H Wan<sup>#</sup>, Z Lan H Qin, Q Lin, Y Hu, __G Yu__<sup>\*</sup>, N Jiang<sup>\*</sup>, B Yu<sup>\*</sup>",NA,NA,academic_articles,NA
@@ -82,6 +83,7 @@ The 7^th^ National Conference on Computational Biology and Bioinformatics,cluste
 "The Second International Workshop on Environmental Microbiomes, Apr 2017",Computational Methods in Ecology and Evolution,Sun Yat-sen University,2017,2017,NA,NA,NA,presentation,NA
 潮博沙龙,R语言与生物信息学,"Guangzhou, CN",2016,2016,NA,NA,NA,presentation,NA
 "The 9^th^ China-R Conference, May 2016",ggtree for visualization and annotation of phylogenetic trees,Renmin University of China,2016,2016,NA,NA,NA,presentation,NA
+Associate Editor,iMeta,NA,2022,9999,NA,NA,NA,affliation,NA
 Youth Editor,The Innovation,NA,2022,9999,NA,NA,NA,affliation,NA
 委员,南方医科大学基础医学院第二届学术分委员会,NA,2022,9999,NA,NA,NA,affliation,NA
 计算生物学与生物信息学专业委员会委员,中国生物工程学会,NA,2021,9999,NA,NA,NA,affliation,NA

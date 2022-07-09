@@ -307,19 +307,23 @@ Guangchuang Yu {#title}
 
 
 ```{r, results='asis'}
-intro_text <- glue("Professor of Bioinformatics at [Southern Medical University](http://www.smu.edu.cn/). I have developed more than 20 R packages, including ",
-  {Biocpkg("clusterProfiler")}, ", ", 
-  {Biocpkg("ChIPseeker")}, ", ",
-  {Biocpkg("treeio")}, " and ",
-  {Biocpkg("ggtree")}, 
-  ", to help biologists to explore and understand their data.")
+#intro_text <- glue("Professor of Bioinformatics at [Southern Medical University](http://www.smu.edu.cn/). I have developed more than 20 R packages, including ",
+#  {Biocpkg("clusterProfiler")}, ", ", 
+#  {Biocpkg("ChIPseeker")}, ", ",
+#  {Biocpkg("treeio")}, " and ",
+#  {Biocpkg("ggtree")}, 
+#  ", to help biologists to explore and understand their data.")
 
-cat(sanitize_links(intro_text))
+#cat(sanitize_links(intro_text))
 ```
 
-I am broadly interested in bioinformatics, metagenomics, molecular evolution, data integration and visualization.
+<!-- I am broadly interested in bioinformatics, metagenomics, molecular evolution, data integration and visualization. -->
 
+Professor and dean of the Department of Bioinformatics, School of Basic Medicine, Southern Medical University. My research group has been focusing on the development and application of bioinformatics methods and tools, and has developed a number of widely recognized bioinformatics tools in phylogeny, omics data analysis, and data visualization to help biologists explore and understand data. 
 
+教授、博导，现任南方医科大学基础医学院生物信息学系系主任。
+
+课题组一直专注于生物信息学方法工具开发及应用，在系统发育、组学数据分析和数据可视化上开发了多款广受同行认可的生物信息学工具，帮助生物学家探索和理解数据。
 
 
 Research Experience {data-icon=laptop}
