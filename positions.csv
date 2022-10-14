@@ -20,6 +20,7 @@ School of Basic Medical Sciences,生物信息学科研训练,Southern Medical Un
 School of Basic Medical Sciences,基因组学,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 College of Life Science and Technology,功能蛋白质研究,Jinan University,2011,2012,NA,NA,Graduate level class,teaching_positions,NA
+"__*iMeta*__, 2022, 1(4):e56.",[Ggtree: A serialized data object for visualization of a phylogenetic tree and annotation data](https://onlinelibrary.wiley.com/doi/full/10.1002/imt2.56),N/A,2022,2022,"S Xu, L Li, X Luo, M Chen, W Tang, L Zhan, Z Dai, TT. Lam, Y Guan, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Microbiology*__. 2022, 13:951774.",[Characterization of toxin-antitoxin systems from public sequencing data: a case study in *Pseudomonas aeruginosa*](https://www.frontiersin.org/articles/10.3389/fmicb.2022.951774),N/A,2022,2022,"Z Dai, T Wu, S Xu, L Zhou, W Tang, E Hu, L Zhan M Chen, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Oncology*__. 2022, 12:912694. ",[Stemness Analysis Uncovers That The Peroxisome Proliferator-Activated Receptor Signaling Pathway Can Mediate Fatty Acid Homeostasis In Sorafenib-Resistant Hepatocellular Carcinoma Cells](https://doi.org/10.3389/fonc.2022.912694),N/A,2022,2022,"T Feng<sup>#</sup>, T Wu<sup>#</sup>, Y Zhang<sup>#</sup>, L Zhou<sup>#</sup>, S Liu, L Li, M Li, E Hu, Q Wang, X Fu, L Zhan, Z Xie, W Xie, X Huang<sup>\*</sup>, X Shang<sup>\*</sup>,  __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Briefings in Bioinformatics*__. 2022, 23(4):bbac222.",[ggmsa: a visual exploration tool for multiple sequence alignment and associated data](https://doi.org/10.1093/bib/bbac222),N/A,2022,2022,"L Zhou<sup>#</sup>, T Feng<sup>#</sup>, S Xu, F Gao, TT Lam, Q Wang, T Wu, H Huang, L Zhan, L Li, Y Guan, Z Dai<sup>\*</sup>, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
@@ -70,9 +71,9 @@ College of Life Science and Technology,功能蛋白质研究,Jinan University,20
 "ISBN: 9781032233574, DOI: 10.1201/9781003279242","[Data Integration, Manipulation and Visualization of Phylogenetic Trees](https://www.routledge.com/Data-Integration-Manipulation-and-Visualization-of-Phylogenetic-Trees/Yu/p/book/9781032233574)",NA,2022,2022,__G Yu__,NA,Chapman and Hall/CRC,book_chapters,NA
 "ISBN: 9782889761906, DOI: 10.3389/978-2-88976-190-6",[Biomedical Data Visualization: Methods and Applications](https://www.frontiersin.org/research-topics/17918/),NA,2022,2022,"__G Yu__, TTY Lam, CL Xiao, M Zhou (eds.)",NA,Lausanne: Frontiers Media SA,book_chapters,NA
 "ISBN: 9781071603000, DOI: 10.1007/978-1-0716-0301-7_11",[Gene Ontology Semantic Similarity Analysis Using GOSemSim](https://doi.org/10.1007/978-1-0716-0301-7_11),NA,2020,2020,__G Yu__,"In: Kidder B. (eds) **Stem Cell Transcriptional Networks**, __*Methods in Molecular Biology*__, 2117:207-215. ","Humana, New York, NY",book_chapters,NA
-"**主持**, CNY ¥540,000, 国家自然科学基金, 面上项目",基于噬菌体-细菌-人类宿主互作的多囊卵巢综合征患者肠道微生态解析与干预,NA,2023,2026,NA,NA,NA,grant,NA
+"**主持**, CNY ¥540,000, 国家自然科学基金, 面上项目",基于噬菌体-细菌-人类宿主互作的多囊卵巢综合征患者肠道微生态解析与干预 (32270677)),NA,2023,2026,NA,NA,NA,grant,NA
 "**主持**, CNY ¥600,000, 省部级项目",大样本多组学数据联合分析系统研究与构建,NA,2020,2022,NA,NA,NA,grant,NA
-"**主持**, CNY ¥1,500,000",南方医科大学第三层次人才引进科研项目 (G618289088),NA,2018,2020,NA,NA,NA,grant,NA
+"**主持**, CNY ¥1,500,000",南方医科大学第三层次人才引进科研项目,NA,2018,2020,NA,NA,NA,grant,NA
 "**参与**, CNY ¥990,000, 中华人民共和国科学技术部，国家重点研发计划",病毒性新发传染病的研究与防治 (2017YFE0190800),,2018,2020,NA,NA,NA,grant,NA
 "**主持**, CNY ¥100,000, 中央高校基本科研业务费专项资金",hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究 (21613414),NA,2013,2013,NA,NA,NA,grant,NA
 "**主持**, CNY ¥20,000, 中央高校基本科研业务费专项资金",Hela细胞周期动态蛋白质组学分析 (21611303),NA,2011,2011,NA,NA,NA,grant,NA
@@ -99,7 +100,6 @@ Steering Committee,International Network for Data Analysis,Institut Pasteur,2015
 专家,广东潮博智库,"Guangdong, CN",2014,9999,NA,NA,NA,affliation,NA
 Journal of Integrated OMICS,Best paper of the year 2010,NA,2012,2012,NA,NA,NA,award,NA
 The University of Hong Kong,Postgraduate studentships,NA,2013,2017,NA,NA,NA,award,NA
-美国斯坦福大学,2020全球前2%顶尖科学家,NA,2021,2021,NA,NA,NA,award,NA
-Elsevier,2020年中国高被引学者,NA,2021,2021,NA,NA,NA,award,NA
+美国斯坦福大学,连续3年入选“全球前2%顶尖科学家”,NA,2020,2022,NA,NA,NA,award,NA
+Elsevier,连续2年入选“中国高被引学者”,NA,2021,2022,NA,NA,NA,award,NA
 南方医科大学,2020学年教学优秀一等奖,NA,2022,2022,NA,NA,NA,award,NA
-Elsevier,2021年中国高被引学者,NA,2022,2022,NA,NA,NA,award,NA
