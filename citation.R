@@ -55,11 +55,14 @@ p <- ggplot(cites, aes(cites, year)) +
           panel.grid.minor = element_blank(),
           panel.grid.major.x = element_line(linetype="dashed"),
           plot.caption=element_text(colour='grey30')) +
-    theme_transparent() 
+    theme_transparent() +
+    hexpand(.1)
 
 ggsave(p, file = "citation.png", width=3.5, height=4, bg = "transparent")
 
-p2 <- p + labs(caption=paste0("data from Google Scholar, ", profile$date))
+p2 <- p + labs(caption=paste0("data from Google Scholar, ", profile$date)) +
+    theme(axis.text=element_text(size=15))
+
 g <- as.ggplot(p2) + 
     annotate(x=.95, y=.25, geom='text', 
         label="total cites = 23388\nh-index = 27", 
