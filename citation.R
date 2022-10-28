@@ -49,7 +49,7 @@ p <- ggplot(cites, aes(cites, year)) +
     #geom_text2(aes(label=cites, subset = cites > 1000), hjust=1.1, size=5) +
     geom_text(aes(label=cites, hjust = sign(cites > N) + .1 * sign(cites - N)),size=5) + 
     labs(caption = "data from Google Scholar") +
-    scale_x_continuous(position="top") +
+    scale_x_continuous(position="top", expand=c(0,0)) +
     theme_minimal(base_size=14) + xlab(NULL) + ylab(NULL) +
     theme(panel.grid.major.y = element_blank(), 
           panel.grid.minor = element_blank(),
@@ -58,6 +58,14 @@ p <- ggplot(cites, aes(cites, year)) +
     theme_transparent() 
 
 ggsave(p, file = "citation.png", width=3.5, height=4, bg = "transparent")
+
+p2 <- p + labs(caption=paste0("data from Google Scholar, ", profile$date))
+g <- as.ggplot(p2) + 
+    annotate(x=.95, y=.25, geom='text', 
+        label="total cites = 23388\nh-index = 27", 
+        size=6, hjust=1)
+ggsave(g, filename="~/mybook/yulab-smu.github.io/static/images/citation.png",
+        width=5, height=3)
 
 
 ## library(magick)
