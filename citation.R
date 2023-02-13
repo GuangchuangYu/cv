@@ -65,7 +65,8 @@ p2 <- p + labs(caption=paste0("data from Google Scholar, ", profile$date)) +
 
 g <- as.ggplot(p2) + 
     annotate(x=.95, y=.25, geom='text', 
-        label="total cites = 23388\nh-index = 27", 
+        label=paste0("total cites = ", profile$total_cites, 
+                    "\nh-index = ", profile$h_index), 
         size=6, hjust=1)
 ggsave(g, filename="~/mybook/yulab-smu.github.io/static/images/citation.png",
         width=5, height=3)
