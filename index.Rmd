@@ -347,6 +347,8 @@ Certificate {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
+![](figures/2022-highly-cited-researcher.png){width=100%}
+
 ![](figures/2021-highly-cited-researcher.jpg){width=100%}
 
 ![](figures/2020-highly-cited-researcher.png){width=100%}
@@ -368,7 +370,7 @@ print_section(position_data, 'award')
 
 
 
-
+\pagebreak 
 
 
 Grants  {data-icon=chart-line}

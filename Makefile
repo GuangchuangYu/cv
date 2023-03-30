@@ -7,7 +7,8 @@ cv2:
 	Rscript -e 'rmarkdown::render("index.Rmd")'
 
 pdf:
-	Rscript -e 'pagedown::chrome_print("index.html", "ygc.pdf", browser = "microsoft-edge-stable")'
+	#Rscript -e 'pagedown::chrome_print("index.html", "ygc.pdf", browser = "microsoft-edge-stable")'
+	Rscript -e 'pagedown::chrome_print("index.html", "ygc.pdf", browser = "MicrosoftEdge")'
 
 citation: 
 	source /data/gitee/ygc-utilities/proxy.sh; \

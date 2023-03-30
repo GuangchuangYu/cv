@@ -6,7 +6,7 @@ library(ggimage)
 library(ggtree)
 
 
-#Sys.setenv(http_proxy="http://127.0.0.1:43723")
+Sys.setenv(http_proxy="http://127.0.0.1:46130")
 
 #set_scholar_mirror()
 
@@ -68,7 +68,7 @@ g <- as.ggplot(p2) +
         label=paste0("total cites = ", profile$total_cites, 
                     "\nh-index = ", profile$h_index), 
         size=6, hjust=1)
-ggsave(g, filename="~/mybook/yulab-smu.github.io/static/images/citation.png",
+ggsave(g, filename="../yulab-smu.github.io/static/images/citation.png",
         width=5, height=3)
 
 
