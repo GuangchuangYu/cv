@@ -8,7 +8,9 @@ cv2:
 
 pdf:
 	#Rscript -e 'pagedown::chrome_print("index.html", "ygc.pdf", browser = "microsoft-edge-stable")'
-	Rscript -e 'pagedown::chrome_print("index.html", "ygc.pdf")'
+	Rscript -e 'pagedown::chrome_print("index.html", "x.pdf")';\
+	ps2pdf x.pdf ygc.pdf;\
+	rm x.pdf
 
 citation: 
 	source /data/gitee/ygc-utilities/proxy.sh; \
