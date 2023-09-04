@@ -7,6 +7,7 @@ library(ggtree)
 
 
 Sys.setenv(http_proxy="http://127.0.0.1:46130")
+Sys.setenv(https_proxy="http://127.0.0.1:46130")
 
 #set_scholar_mirror()
 
@@ -24,6 +25,7 @@ if (is.null(cites)) {
     cites <- tinyscholar::tinyscholar(id)$citation
 
     profile = jsonlite::fromJSON("profile.json")
+    profile$date <- Sys.Date()
     if (profile$total_cites < cites[1,2])
         profile$total_cites <- cites[1,2]
     cat(toJSON(profile), file ="profile.json")
