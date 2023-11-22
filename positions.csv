@@ -12,10 +12,11 @@ School of Basic Medical Sciences,Professor,Southern Medical University,2018,9999
 State Key Laboratory of Infectious Diseases,Post-doctoral Fellow,The University of Hong Kong,2017,2018,NA,NA,NA,research_positions,NA
 Key Laboratory of Functional Protein Research of Guangdong Higher Education Institutes,Bioinformatician,Jinan University,2009,2013,NA,NA,NA,research_positions,NA
 Department of Biochemistry and Molecular Biology,BMB209: Workshops in Applied Bioinformatics,University of Southern Denmark,2019,2019,NA,NA,"PhD level class, invited lecture",teaching_positions,NA
+School of Laboratory Medicine and Biotechnology,生物技术前沿进展,Southern Medical University,2023,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,生物信息学,Southern Medical University,2022,9999,NA,NA,Graduate level class,teaching_positions,NA
 School of Public Health,毒理学原理与方法,Southern Medical University,2022,9999,NA,NA,Graduate level class,teaching_positions,NA
 School of Basic Medical Sciences,生物信息学导论,Southern Medical University,2022,9999,NA,NA,Undergraduate level class,teaching_positions,NA
-School of Basic Medical Sciences,基础医学研究与医学发展,Southern Medical University,2021,9999,NA,NA,Undergraduate level class,teaching_positions,NA
+School of Basic Medical Sciences,医学研究与医学发展,Southern Medical University,2021,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,生物信息学科研训练,Southern Medical University,2019,2021,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,基因组学,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
@@ -54,12 +55,14 @@ Youth Editor,The Innovation,NA,2022,9999,NA,NA,NA,affliation,NA
 Member,International Society for Influenza and other Respiratory Virus Disease,NA,2016,2016,NA,NA,NA,affliation,NA
 Steering Committee,International Network for Data Analysis,Institut Pasteur,2015,2015,NA,NA,NA,affliation,NA
 专家,广东潮博智库,"Guangdong, CN",2014,9999,NA,NA,NA,affliation,NA
+Clarivate,Highly Cited Researcher,NA,2023,2023,NA,NA,NA,award,NA
 Journal of Integrated OMICS,Best paper of the year 2010,NA,2012,2012,NA,NA,NA,award,NA
 The University of Hong Kong,Postgraduate studentships,NA,2013,2017,NA,NA,NA,award,NA
-全球前2%顶尖科学家榜单,连续2年入选“终身科学影响力”排行榜,NA,2021,2022,NA,NA,NA,award,NA
-全球前2%顶尖科学家榜单,连续3年入选“年度科学影响力”排行榜,NA,2020,2022,NA,NA,NA,award,NA
+全球前2%顶尖科学家榜单,连续3年入选“终身科学影响力”排行榜,NA,2021,2023,NA,NA,NA,award,NA
+全球前2%顶尖科学家榜单,连续4年入选“年度科学影响力”排行榜,NA,2020,2023,NA,NA,NA,award,NA
 Elsevier,连续3年入选“中国高被引学者”,NA,2021,2023,NA,NA,NA,award,NA
 南方医科大学,2020学年教学优秀一等奖,NA,2022,2022,NA,NA,NA,award,NA
+"__*Influenza and Other Respiratory Viruses*__. 2023, 17(7):e13172.",[The impact of pre-existing influenza antibodies and inflammatory status on the influenza vaccine responses in older adults](https://onlinelibrary.wiley.com/doi/abs/10.1111/irv.13172),N/A,2023,2023,"M Kang, F Lin, Z Jiang, X Tan, X Lin, Z Liang, C Xiao, Y Xia, W Guan, Z Yang, __G Yu__, M Zanin, S Tang<sup>\*</sup>, SS Wong<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Gut Microbes*__. 2023, 15(1):2223349.",[MMINP: A computational framework of microbe-Metabolite interactions-based metabolic profiles predictor based on the O2-PLS algorithm](https://dx.doi.org/10.1080/19490976.2023.2223349),N/A,2023,2023,"W Tang, H Zheng, S Xu, P Li, L Zhan, X Luo, Z Dai, Q Wang, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*The Innovation*__. 2023, 4(2):100388.",[MicrobiotaProcess: A comprehensive R package for deep mining microbiome](https://doi.org/10.1016/j.xinn.2023.100388),N/A,2023,2023,"S Xu, L Zhan, W Tang, Q Wang, Z Dai, L Zhou, T Feng, M Chen, T Wu, E Hu, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Frontiers in Medicine*__. 2023, 10:1146896.",[Editorial: Computational and Systematic Analysis of Multi-omics Data for Drug Discovery and Development](https://www.frontiersin.org/articles/10.3389/fmed.2023.1146896/full),N/A,2023,2023,"S Guo<sup>\*</sup>, D Zhang, H Wang, Q An, __G Yu__, J Han, C Jiang, J Huang",NA,NA,academic_articles,NA

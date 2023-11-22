@@ -275,9 +275,12 @@ cites = jsonlite::fromJSON("citation.json")
 if (profile$total_cites < sum(cites$cites))
   profile$total_cites <- sum(cites$cites)
 
+hcr_symbol = '<font color="#cc5500"><i class="fa fa-trophy"></i></font>'
+
 glue(
 
 "
++ {hcr_symbol} Highly Cited Researcher
 + Citation = {profile$total_cites}
 + H-index = {profile$h_index}
 + I10-index = {profile$i10_index}
@@ -288,6 +291,7 @@ glue(
 ```
 
 ![](citation.png)
+
 
 
 
@@ -319,11 +323,13 @@ Guangchuang Yu {#title}
 
 <!-- I am broadly interested in bioinformatics, metagenomics, molecular evolution, data integration and visualization. -->
 
-Professor and dean of the Department of Bioinformatics, School of Basic Medicine, Southern Medical University. My research group has been focusing on the development and application of bioinformatics methods and tools, and has developed a number of widely recognized bioinformatics tools in phylogeny, omics data analysis, and data visualization to help biologists explore and understand data. 
+Professor and dean of the Department of Bioinformatics, School of Basic Medicine, Southern Medical University. 
+
+My research group is committed to developing bioinformatics analysis algorithms and software through multidisciplinary integration, providing tools for exploring and analyzing data to solve complex issues in the field of biomedicine. At the same time, through the integration of multi-omics data, we systematically study the pathogenic mechanisms of reproduction and mental diseases.
 
 教授、博导，现任南方医科大学基础医学院生物信息学系系主任。
 
-课题组一直专注于生物信息学方法工具开发及应用，在系统发育、组学数据分析和数据可视化上开发了多款广受同行认可的生物信息学工具，帮助生物学家探索和理解数据。
+课题组致力于通过多学科交叉融合，开发生物大数据分析算法和软件，为解决生物医学领域复杂问题提供探索和分析数据的工具；同时通过多组学数据融合，系统性地研究生育与精神类疾病的致病机理
 
 
 Research Experience {data-icon=laptop}
@@ -346,13 +352,6 @@ print_section(position_data, 'education')
 Certificate {data-icon=book}
 --------------------------------------------------------------------------------
 
-::: aside
-![](figures/2022-highly-cited-researcher.png){width=100%}
-
-![](figures/2021-highly-cited-researcher.jpg){width=100%}
-
-![](figures/2020-highly-cited-researcher.png){width=100%}
-:::
 
 
 ```{r, results='asis', echo = FALSE}
@@ -362,6 +361,10 @@ print_section(position_data, 'certificate')
 
 Scholarships & Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
+
+::: aside
+![](figures/HCR2023.png){width=100%}
+:::
 
 
 ```{r}
@@ -376,6 +379,13 @@ print_section(position_data, 'award')
 Grants  {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
+::: aside
+![](figures/9781032233574_cover_review.png){width=100%}
+
+![](figures/book-cover-cn.png){width=100%}
+:::
+
+
 ```{r}
 print_section(position_data, 'grant')
 ```
@@ -384,9 +394,6 @@ print_section(position_data, 'grant')
 Books {data-icon=book}
 --------------------------------------------------------------------------------
 
-::: aside
-![](figures/treedata-jd-top1.jpg){width=100%}
-:::
 
 
 ```{r}
