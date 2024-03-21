@@ -6,8 +6,8 @@ library(ggimage)
 library(ggtree)
 
 
-Sys.setenv(http_proxy="http://127.0.0.1:46130")
-Sys.setenv(https_proxy="http://127.0.0.1:46130")
+Sys.setenv(http_proxy="http://127.0.0.1:7897")
+Sys.setenv(https_proxy="http://127.0.0.1:7897")
 
 #set_scholar_mirror()
 
