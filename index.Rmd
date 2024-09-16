@@ -247,7 +247,7 @@ Aside
 ================================================================================
 
 
-![logo](ygc.png){width=100%}
+![logo](ygc-2024.jpg){width=100%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
