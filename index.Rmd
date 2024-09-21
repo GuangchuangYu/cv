@@ -373,9 +373,6 @@ print_section(position_data, 'award')
 
 
 
-\pagebreak 
-
-
 Grants  {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
