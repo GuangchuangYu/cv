@@ -135,7 +135,7 @@ build_position_from_df <- function(pos_df){
   }
 
 
-  if (grepl("clusterProfiler", pos_df$title) && grepl("Innovation", pos_df$loc)) {
+  if (grepl("clusterProfiler 4.0", pos_df$title) && grepl("Innovation", pos_df$loc)) {
     cp2021()
   }
 
@@ -325,11 +325,11 @@ Guangchuang Yu {#title}
 
 Professor and dean of the Department of Bioinformatics, School of Basic Medicine, Southern Medical University. 
 
-My research group is committed to developing bioinformatics analysis algorithms and software through multidisciplinary integration, providing tools for exploring and analyzing data to solve complex issues in the field of biomedicine. At the same time, through the integration of multi-omics data, we systematically study the pathogenic mechanisms of reproduction and mental diseases.
+My research group is dedicated to developing innovative methods, tools, and novel analytical approaches through multidisciplinary integration to address complex problems in the field of biomedicine.
 
 教授、博导，现任南方医科大学基础医学院生物信息学系系主任。
 
-课题组致力于通过多学科交叉融合，开发生物大数据分析算法和软件，为解决生物医学领域复杂问题提供探索和分析数据的工具；同时通过多组学数据融合，系统性地研究生育与精神类疾病的致病机理
+课题组致力于通过多学科交叉融合，开发创新方法、工具以及新颖的分析手段，以解决生物医学领域复杂问题。 
 
 
 Research Experience {data-icon=laptop}
@@ -363,7 +363,9 @@ Scholarships & Awards {data-icon=trophy}
 --------------------------------------------------------------------------------
 
 ::: aside
+![](figures/HCR2024.png){width=100%}
 ![](figures/HCR2023.png){width=100%}
+![](figures/top-2-percent-scientist-2024.png){width=100%}
 :::
 
 
