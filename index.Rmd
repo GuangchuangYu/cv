@@ -68,15 +68,16 @@ sanitize_links <- function(text){
 }
 
 
+
 cp2012 <- function() {
   cat("\n\n::: aside\n\n")
-  cat("![](figures/2021年中国科技论文统计报告发布会-高被引论文-截屏.png){width=100%}\n\n")
+  cat("![](figures/2021年中国科技论文统计报告发布会-高被引论文-截屏.png){width=90%}\n\n")
   clusterProfiler <- "clusterProfiler (Yu et al. 2012)"
   url <- "https://doi.org/10.1089/omi.2011.0118"
   clusterProfiler2012 <- glue("[{clusterProfiler}]({url})")
 
   glue(
-    "{clusterProfiler2012} 被中国科学技术信息研究所列为“2011-2021我国高被引论文中被引次数最高的10篇国际论文”（2021年中国科技论文统计报告）" 
+    "+ {clusterProfiler2012} 被中国科学技术信息研究所列为“2011-2021我国高被引论文中被引次数最高的10篇国际论文”（2021年中国科技论文统计报告）" 
   ) %>% print()
 
   cat("\n\n:::\n\n")
@@ -90,15 +91,29 @@ cp2021 <- function() {
   clusterProfiler4 <- "clusterProfiler (Wu et al. 2021)"
   url <- "https://doi.org/10.1016/j.xinn.2021.100141"
   clusterProfiler2021 <- glue("[{clusterProfiler4}]({url})")
+  clusterProfiler4_awards <- "Honored with the Innovation Best Paper, Most Read, Most Download Awards."
 
   glue(
-    "{clusterProfiler2021}, the featured article in 2021-08-24's website banner of Cell Press" 
+    "+ {clusterProfiler2021}, the featured article in 2021-08-24's website banner of Cell Press.\n+ {clusterProfiler4_awards}" 
   ) %>% print()
 
   cat("\n\n:::\n\n")
 }
 
+cp2024innovation <- function() {
+  cat("\n\n::: aside\n\n")
+  # cat("![](figures/smallmethod2025.png){width=100%}\n\n")
+  paper <- "Yu (2024)"
+  url <- "https://doi.org/10.1016/j.xinn.2024.100722"
 
+  paper2 <- glue("[{paper}]({url})")
+
+  glue(
+    "+ {paper2}, published in The Innovation, was honored with the Best Paper Award." 
+  ) %>% print()
+
+  cat("\n\n:::\n\n")
+}
 
 ggtree2017 <- function() {
   cat("\n\n::: aside\n\n")
@@ -116,7 +131,7 @@ ggtree2017 <- function() {
 
   glue(
     " 
-    The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
+    + The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
     "
   ) %>% print()
 
@@ -124,6 +139,38 @@ ggtree2017 <- function() {
 }
 
 
+sm2025 <- function() {
+  cat("\n\n::: aside\n\n")
+  #cat("![](figures/smallmethod2025.png){width=100%}\n\n")
+  paper <- "Wang et al. (2025)"
+  url <- "https://doi.org/10.1002/smtd.202401107"
+
+  paper2 <- glue("[{paper}]({url})")
+
+  url2 <- "https://onlinelibrary.wiley.com/doi/10.1002/smtd.202570033"
+
+  frontispiece <- glue("[frontispiece]({url2})")
+  glue(
+    "+ {paper2}, published in Small Methods, was featured on the issue's {frontispiece}." 
+  ) %>% print()
+
+  cat("\n\n:::\n\n")
+}
+
+
+
+til2025award <- function() {
+  cat("\n\n::: aside\n\n")
+  paper <- "Luo et al. (2024)"
+  url <- "https://doi.org/10.59717/j.xinn-life.2024.100105"
+
+  paper2 <- glue("[{paper}]({url})")
+  glue(
+    "+ {paper2}, published in The Innovation Lief, was honored with the Best Popular Award." 
+  ) %>% print()
+
+  cat("\n\n:::\n\n")
+}
 
 # Takes a single row of dataframe corresponding to a position
 # turns it into markdown, and prints the result to console.
@@ -137,6 +184,25 @@ build_position_from_df <- function(pos_df){
 
   if (grepl("clusterProfiler 4.0", pos_df$title) && grepl("Innovation", pos_df$loc)) {
     cp2021()
+  }
+
+  # 定位：后一篇文章
+  if (grepl("ReactomePA", pos_df$title) && grepl("Molecular BioSystems", pos_df$loc)) {
+    ggtree2017()
+  }
+
+  if (grepl("Artificial intelligence for life sciences: A comprehensive guide and future trends", pos_df$title)) {
+    til2025award()
+  }
+
+  # 定位：后一篇文章
+  if (grepl("16S rRNA", pos_df$title) && grepl("Photodermatology", pos_df$loc)) {
+    sm2025()
+  }
+  
+  # 定位：后一篇文章
+  if (grepl("clusterProfiler", pos_df$title) && grepl("Nature Protocols", pos_df$loc)) {
+    cp2024innovation()
   }
 
 
@@ -175,14 +241,6 @@ build_position_from_df <- function(pos_df){
 
 "
   ) %>% print()
-
-
-  if (grepl("ggtree", pos_df$title) && grepl("Ecology and Evolution", pos_df$loc)) {
-    ggtree2017()
-  }
-
-
-
 
 }
 
@@ -358,15 +416,16 @@ Certificate {data-icon=book}
 print_section(position_data, 'certificate')
 ```
 
-
-Scholarships & Awards {data-icon=trophy}
---------------------------------------------------------------------------------
-
 ::: aside
+![](figures/wiley2025.png){width=100%}
 ![](figures/HCR2024.png){width=100%}
 ![](figures/HCR2023.png){width=100%}
 ![](figures/top-2-percent-scientist-2024.png){width=100%}
 :::
+
+Scholarships & Awards {data-icon=trophy}
+--------------------------------------------------------------------------------
+
 
 
 ```{r}
@@ -378,21 +437,22 @@ print_section(position_data, 'award')
 Grants  {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
-::: aside
-![](figures/9781032233574_cover_review.png){width=100%}
-
-![](figures/book-cover-cn.png){width=100%}
-:::
-
 
 ```{r}
 print_section(position_data, 'grant')
 ```
 
+\pagebreak 
 
 Books {data-icon=book}
 --------------------------------------------------------------------------------
 
+
+::: aside
+![](figures/9781032233574_cover_review.png){width=100%}
+
+![](figures/book-cover-cn.png){width=100%}
+:::
 
 
 ```{r}
@@ -415,6 +475,7 @@ print_section(position_data, 'teaching_positions')
 
 
 
+\pagebreak 
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
@@ -425,7 +486,7 @@ print_section(position_data, 'academic_articles')
 ```
 
 
-
+<!--
 Conference proceedings {data-icon=group}
 --------------------------------------------------------------------------------
 
@@ -434,6 +495,7 @@ Conference proceedings {data-icon=group}
 ```{r}
 print_section(position_data, 'presentation')
 ```
+-->
 
 
 Professional affliations {data-icon=home}

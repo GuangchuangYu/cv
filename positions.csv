@@ -23,10 +23,12 @@ School of Basic Medical Sciences,生物信息学科研训练,Southern Medical Un
 School of Basic Medical Sciences,基因组学,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 School of Basic Medical Sciences,基础医学新进展讲座,Southern Medical University,2019,9999,NA,NA,Undergraduate level class,teaching_positions,NA
 College of Life Science and Technology,功能蛋白质研究,Jinan University,2011,2012,NA,NA,Graduate level class,teaching_positions,NA
+ISBN: 9787565931987,[基于理工信的医学数据采集与分析](https://www.pumpedu.com/en-shop/7263.html),NA,2024,2024,编委,主编：沈百荣，杨恩策,北京大学医学出版社,book_chapters,NA
 ISBN：9787121451829,[R实战：系统发育树的数据集成操作及可视化](https://u.jd.com/uu7G4qC),NA,2023,2023,"__余光创__（著）, 李林, 罗晓（译）",NA,电子工业出版社,book_chapters,NA
 "ISBN: 9781032233574, DOI: 10.1201/9781003279242","[Data Integration, Manipulation and Visualization of Phylogenetic Trees](https://www.routledge.com/Data-Integration-Manipulation-and-Visualization-of-Phylogenetic-Trees/Yu/p/book/9781032233574)",NA,2022,2022,__G Yu__,NA,Chapman and Hall/CRC,book_chapters,NA
 "ISBN: 9782889761906, DOI: 10.3389/978-2-88976-190-6",[Biomedical Data Visualization: Methods and Applications](https://www.frontiersin.org/research-topics/17918/),NA,2022,2022,"__G Yu__, TTY Lam, CL Xiao, M Zhou (eds.)",NA,Lausanne: Frontiers Media SA,book_chapters,NA
 "ISBN: 9781071603000, DOI: 10.1007/978-1-0716-0301-7_11",[Gene Ontology Semantic Similarity Analysis Using GOSemSim](https://doi.org/10.1007/978-1-0716-0301-7_11),NA,2020,2020,__G Yu__,"In: Kidder B. (eds) **Stem Cell Transcriptional Networks**, __*Methods in Molecular Biology*__, 2117:207-215. ","Humana, New York, NY",book_chapters,NA
+"**主持**, CNY ￥50,000, 广东省研究生教育创新计划项目","研究生示范课程 ""生物信息学""",NA,2024,2026,NA,NA,NA,grant,NA
 "**主持**, CNY ￥300,000, 广东省高校教学质量与教学改革工程建设项目",应用型生物信息学专项人才培养计划（特色班）,NA,2022,2025,NA,NA,NA,grant,NA
 "**主持**, CNY ￥540,000, 国家自然科学基金, 面上项目",基于噬菌体-细菌-人类宿主互作的多囊卵巢综合征患者肠道微生态解析与干预 (32270677)),NA,2023,2026,NA,NA,NA,grant,NA
 "**主持**, CNY ￥600,000, 军科委国防科技创新特区",大样本多组学数据联合分析系统研究与构建,NA,2020,2022,NA,NA,NA,grant,NA
@@ -48,6 +50,12 @@ The 7^th^ National Conference on Computational Biology and Bioinformatics,cluste
 "The Second International Workshop on Environmental Microbiomes, Apr 2017",Computational Methods in Ecology and Evolution,Sun Yat-sen University,2017,2017,NA,NA,NA,presentation,NA
 潮博沙龙,R语言与生物信息学,"Guangzhou, CN",2016,2016,NA,NA,NA,presentation,NA
 "The 9^th^ China-R Conference, May 2016",ggtree for visualization and annotation of phylogenetic trees,Renmin University of China,2016,2016,NA,NA,NA,presentation,NA
+人工智能毒理专业委员会委员,中国毒理协会,NA,2025,9999,NA,NA,NA,affliation,NA
+Senior Member,The Innovation Academy,NA,2024,9999,NA,NA,NA,affliation,NA
+肿瘤基因诊断专业委员会委员,中国抗癌协会,NA,2024,9999,NA,NA,NA,affliation,NA
+教育与培训工作委员会委员,国际计算生物学学会中国理事会,NA,2025,9999,NA,NA,NA,affliation,NA
+生物医学信息学分会委员,中国生物物理学会,NA,2025,9999,NA,NA,NA,affliation,NA
+Academic Editor,The Innovation Life,NA,2023,9999,NA,NA,NA,affliation,NA
 Associate Editor,iMeta,NA,2022,9999,NA,NA,NA,affliation,NA
 Youth Editor,The Innovation,NA,2022,9999,NA,NA,NA,affliation,NA
 理事,广东省生物信息学会,NA,2023,2028,NA,NA,NA,affliation,NA
@@ -68,9 +76,12 @@ Clarivate,Highly Cited Researcher,NA,2023,2024,连续两年入选,NA,NA,award,NA
 Elsevier,中国高被引学者,NA,2021,2025,连续5年入选,NA,NA,award,NA
 南方医科大学,2020学年教学优秀一等奖,NA,2022,2022,NA,NA,NA,award,NA
 The Innovation,Best Reviewer,NA,2024,2024,NA,NA,NA,award,NA
-The Innovation,Best Paper,NA,2024,2024,NA,NA,NA,award,NA
+The Innovation,Outstanding Contributor,NA,2025,2025,NA,NA,NA,award,NA
+The Innovation,Best Paper,NA,2024,2025,NA,NA,NA,award,NA
 Journal of Integrated OMICS,Best paper of the year 2010,NA,2012,2012,NA,NA,NA,award,NA
 The University of Hong Kong,Postgraduate studentships,NA,2013,2017,NA,NA,NA,award,NA
+"__*iMeta*__. 2025, e70065.","[Gut microbial-derived 3,4-dihydroxyphenylacetic acid ameliorates reproductive phenotype of polycystic ovary syndrome](https://onlinelibrary.wiley.com/doi/10.1002/imt2.70065)",N/A,2025,2025,"P Li<sup>#</sup>, L Xie<sup>#</sup>, H Zheng<sup>#</sup>, Y Feng<sup>#</sup>, F Mai, W Tang, J Wang, Z Lan, S Lv, T Jayawardana, S Koentgen, S Xu, Z Wan, Y Chen, H Xu, S Shen, F Zhang, Y Yang, G Hold, F He<sup>\*</sup>, E M. El-Omar<sup>\*</sup>, __G Yu__<sup>\*</sup>, X Chen<sup>\*</sup>",NA,NA,academic_articles,NA
+"__*Oncogene*__. 2025, 44(27):2268-2282.",[Spatial multi-omics profiling of breast cancer oligo-recurrent lung metastasis](https://doi.org/10.1038/s41388-025-03388-y),N/A,2025,2025,"Y Gao<sup>#</sup>, B Li<sup>#</sup>, Y Jin<sup>#</sup>, J Cheng<sup>#</sup>, W Tian, L Ying, L Hong, S Xin, B Lin, C Liu, X Sun, J Zhang, H Zhang, J Xie, X Deng, X Dai, L Liu, Y Zheng, P Zhao, __G Yu__<sup>\*</sup>, W Fang<sup>\*</sup>, X Bao<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*The Innovation*__. 2025, 6(9):100958. ",[aplot: Simplifying the creation of complex graphs to visualize associations across diverse data types](https://doi.org/10.1016/j.xinn.2025.100958),N/A,2025,2025,"S Xu<sup>#</sup>, Q Wang<sup>#</sup>, S Wen<sup>#</sup>, J Li<sup>#</sup>, N He<sup>#</sup>, M Li, T Hackl, R Wang, D Zeng, S Wang, S Li, CH Gao, L Zhou, S Tao, Z Xie, L Deng, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Small Methods*__. 2025, 9(5):2401107.","[Spatial Transcriptomics: Biotechnologies, Computational Tools, and Neuroscience Applications](https://doi.org/10.1002/smtd.202401107)",N/A,2025,2025,"Q Wang, H Zhu, L Deng, S Xu, W Xie, M Li, R Wang, L Tie, L Zhan, __G Yu__<sup>\*</sup>",NA,NA,academic_articles,NA
 "__*Photodermatology, Photoimmunology & Photomedicine*__. 2025, 41(3):e70022.",[16S rRNA Sequencing Reveals Dysbiosis of Skin Microbiome Associated With Disease Severity in Chronic Actinic Dermatitis](https://onlinelibrary.wiley.com/doi/full/10.1111/phpp.70022),N/A,2025,2025,"Y Tu<sup>#\*</sup>, S Xu<sup>#</sup>, H Shu, X Wang, W Li, __G Yu__<sup>\*</sup>, Li He<sup>\*</sup>",NA,NA,academic_articles,NA
