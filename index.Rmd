@@ -84,128 +84,31 @@ cp2012 <- function() {
 }
 
 
-cp2021 <- function() {
-  cat("\n\n::: aside\n\n")
-  cat("![](figures/cell+press-screenshot-2021-08-24.jpg){width=100%}\n\n")
+build_marginnote_from_df <- function(pos_df){
+  has_image <- "highlight_image" %in% names(pos_df) && pos_df$highlight_image != 'N/A'
+  has_note <- "highlight_note" %in% names(pos_df) && pos_df$highlight_note != 'N/A'
 
-  clusterProfiler4 <- "clusterProfiler (Wu et al. 2021)"
-  url <- "https://doi.org/10.1016/j.xinn.2021.100141"
-  clusterProfiler2021 <- glue("[{clusterProfiler4}]({url})")
-  clusterProfiler4_awards <- "Honored with the Innovation Best Paper, Most Read, Most Download Awards."
+  if (!has_image && !has_note) {
+    return("")
+  }
 
-  glue(
-    "+ {clusterProfiler2021}, the featured article in 2021-08-24's website banner of Cell Press.\n+ {clusterProfiler4_awards}" 
-  ) %>% print()
+  lines <- c("", "", "::: marginnote")
 
-  cat("\n\n:::\n\n")
-}
+  if (has_image) {
+    lines <- c(lines, sprintf("![](%s){width=100%%}", pos_df$highlight_image), "")
+  }
 
-cp2024innovation <- function() {
-  cat("\n\n::: aside\n\n")
-  # cat("![](figures/smallmethod2025.png){width=100%}\n\n")
-  paper <- "Yu (2024)"
-  url <- "https://doi.org/10.1016/j.xinn.2024.100722"
+  if (has_note) {
+    lines <- c(lines, sanitize_links(pos_df$highlight_note))
+  }
 
-  paper2 <- glue("[{paper}]({url})")
-
-  glue(
-    "+ {paper2}, published in The Innovation, was honored with the Best Paper Award." 
-  ) %>% print()
-
-  cat("\n\n:::\n\n")
-}
-
-ggtree2017 <- function() {
-  cat("\n\n::: aside\n\n")
-  cat("![](figures/10th-anniversary-logo-2.png){width=100%}\n\n")
-
-  # ggtree <- "ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data"
-  ggtree <- "ggtree (Yu et al. 2017)"
-  url <- 'http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract'
-
-  ggtree2 <- glue("[{ggtree}]({url})")
-  journal <- "**_Methods in Ecology and Evolution_**"
-
-  url2 <- "https://methodsblog.com/2020/11/19/ggtree-tree-visualization/"
-  journal2 <- glue("[{journal}]({url2})")
-
-  glue(
-    " 
-    + The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
-    "
-  ) %>% print()
-
-  cat("\n\n:::\n\n")
-}
-
-
-sm2025 <- function() {
-  cat("\n\n::: aside\n\n")
-  #cat("![](figures/smallmethod2025.png){width=100%}\n\n")
-  paper <- "Wang et al. (2025)"
-  url <- "https://doi.org/10.1002/smtd.202401107"
-
-  paper2 <- glue("[{paper}]({url})")
-
-  url2 <- "https://onlinelibrary.wiley.com/doi/10.1002/smtd.202570033"
-
-  frontispiece <- glue("[frontispiece]({url2})")
-  glue(
-    "+ {paper2}, published in Small Methods, was featured on the issue's {frontispiece}." 
-  ) %>% print()
-
-  cat("\n\n:::\n\n")
-}
-
-
-
-til2025award <- function() {
-  cat("\n\n::: aside\n\n")
-  paper <- "Luo et al. (2024)"
-  url <- "https://doi.org/10.59717/j.xinn-life.2024.100105"
-
-  paper2 <- glue("[{paper}]({url})")
-  glue(
-    "+ {paper2}, published in The Innovation Lief, was honored with the Best Popular Award." 
-  ) %>% print()
-
-  cat("\n\n:::\n\n")
+  lines <- c(lines, ":::", "")
+  paste(lines, collapse = "\n")
 }
 
 # Takes a single row of dataframe corresponding to a position
 # turns it into markdown, and prints the result to console.
 build_position_from_df <- function(pos_df){
-  
-
-  if (grepl("clusterProfiler", pos_df$title) && grepl("OMICS", pos_df$loc)) {
-    cp2012()
-  }
-
-
-  if (grepl("clusterProfiler 4.0", pos_df$title) && grepl("Innovation", pos_df$loc)) {
-    cp2021()
-  }
-
-  # 定位：后一篇文章
-  if (grepl("ReactomePA", pos_df$title) && grepl("Molecular BioSystems", pos_df$loc)) {
-    ggtree2017()
-  }
-
-  if (grepl("Artificial intelligence for life sciences: A comprehensive guide and future trends", pos_df$title)) {
-    til2025award()
-  }
-
-  # 定位：后一篇文章
-  if (grepl("16S rRNA", pos_df$title) && grepl("Photodermatology", pos_df$loc)) {
-    sm2025()
-  }
-  
-  # 定位：后一篇文章
-  if (grepl("clusterProfiler", pos_df$title) && grepl("Nature Protocols", pos_df$loc)) {
-    cp2024innovation()
-  }
-
-
   missing_start <- pos_df$start == 'N/A'
   dates_same <- pos_df$end == pos_df$start
   if (pos_df$end == 9999) {
@@ -215,6 +118,9 @@ build_position_from_df <- function(pos_df){
     timeline <- pos_df$end
   } else {
     timeline <- glue('{pos_df$end} - {pos_df$start}')
+  }
+  if (length(timeline) == 0 || is.na(timeline) || timeline == "") {
+    timeline <- "&nbsp;"
   }
 
   descriptions <- pos_df[str_detect(names(pos_df), 'description')] %>% 
@@ -227,6 +133,7 @@ build_position_from_df <- function(pos_df){
   if (length(description_bullets) == 1 && description_bullets == "- ") {
     description_bullets <- ""
   }
+  marginnote <- build_marginnote_from_df(pos_df)
   glue(
 "### {sanitize_links(pos_df$title)}
 
@@ -237,6 +144,8 @@ build_position_from_df <- function(pos_df){
 {timeline}
 
 {description_bullets}
+
+{marginnote}
 
 
 "
@@ -524,5 +433,3 @@ Links {data-icon=link}
   })
 }
 ```
-
-

@@ -381,6 +381,33 @@ h1, h2{
   margin: 0 0 0.025in 0;
 }
 
+#main .marginnote{
+  position: absolute;
+  top: 0;
+  right: calc(-1 * (var(--sidebar-width) - 0.2in));
+  width: calc(var(--sidebar-width) - 0.4in);
+  font-size: 0.7rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.section.level3 {
+  position: relative;
+  overflow: visible;
+}
+
+#main .marginnote img{
+  display: block;
+}
+
+#main .marginnote p{
+  margin: 0.06in 0 0 0;
+}
+
+#main .marginnote p:first-child{
+  margin-top: 0;
+}
+
 /****** customize list symbol style ******/
 #main li::before{
   position: relative;
